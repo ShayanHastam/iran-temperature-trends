@@ -31,3 +31,63 @@ Positive values = warmer than average | Negative values = colder than average.
 - `Jupyter Notebook` - Interactive development
 
 ### Project Structure
+
+### How to Run
+1. Clone this repository
+2. Install requirements: `pip install pandas matplotlib numpy jupyter`
+3. Run Jupyter: `jupyter notebook`
+4. Open `notebooks/01_temperature_analysis.ipynb`
+
+### Results (To be completed)
+- [ ] Temperature trend chart (1961-2020)
+- [ ] Hottest and coldest years
+- [ ] Decade comparison analysis
+
+---
+
+## 📊 فارسی
+
+### معرفی پروژه
+در این پروژه، داده‌های **دمای نسبی (آنومالی دما)** ایران از سال ۱۹۶۱ تا ۲۰۲۰ تحلیل می‌شود.  
+آنومالی دما یعنی فاصله دما از میانگین بلندمدت.  
+مقادیر مثبت = گرمتر از میانگین | مقادیر منفی = سردتر از میانگین
+
+### منبع داده
+- **منبع:** سازمان خواربار و کشاورزی ملل متحد (FAO)
+- **نام فایل:** `FAO_STAT_iran_change_temp.csv`
+- **بازه زمانی:** ۱۹۶۱ تا ۲۰۲۰ (داده‌های ماهانه)
+
+### سوالات کلیدی
+۱. آیا ایران در ۶۰ سال گذشته گرمایش جهانی را تجربه کرده است؟  
+۲. گرم‌ترین و سردترین سال‌ها کدام‌ها بوده‌اند؟  
+۳. نوسانات دما در دهه‌های مختلف چگونه تغییر کرده است؟
+
+### ابزارهای استفاده شده
+- `pandas` - پاکسازی و تحلیل داده
+- `matplotlib` - مصورسازی
+- `numpy` - محاسبات آماری
+- `Jupyter Notebook` - توسعه تعاملی
+
+### ساختار پروژه
+
+### نحوه اجرا
+۱. مخزن را کلون کنید  
+۲. کتابخانه‌ها را نصب کنید: `pip install pandas matplotlib numpy jupyter`  
+۳. اجرای Jupyter: `jupyter notebook`  
+۴. فایل `notebooks/01_temperature_analysis.ipynb` را باز کنید
+
+### نتایج (در حال تکمیل)
+- [ ] نمودار روند دمایی (۱۹۶۱ تا ۲۰۲۰)
+- [ ] مشخص کردن گرم‌ترین و سردترین سال‌ها
+- [ ] تحلیل مقایسه‌ای دهه‌های مختلف
+
+---
+
+## 📝 Author / نویسنده
+[Your Name / نام شما]
+
+## 📅 Last Updated / آخرین بروزرسانی
+May 2026
+
+## 📜 License / مجوز
+For educational purposes only / فقط برای استفاده آموزشی
